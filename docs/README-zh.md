@@ -49,8 +49,10 @@
 
 | Mirrors | URL                                                                                |
 | ------- | ---------------------------------------------------------------------------------- |
-| Global  | https://cdn.jsdelivr.net/npm/page-agent@1.8.0/dist/iife/page-agent.demo.js         |
-| China   | https://registry.npmmirror.com/page-agent/1.8.0/files/dist/iife/page-agent.demo.js |
+| Global  | https://cdn.jsdelivr.net/npm/page-agent@1.8.2/dist/iife/page-agent.demo.js         |
+| China   | https://registry.npmmirror.com/page-agent/1.8.2/files/dist/iife/page-agent.demo.js |
+
+在 URL 后添加 `?autoInit=false` 可只加载脚本，不自动创建 Demo Agent；之后可通过 `new window.PageAgent(...)` 手动初始化。
 
 ### NPM 安装
 
@@ -106,4 +108,3 @@ this project possible.
 ---
 
 **⭐ 如果觉得 PageAgent 有用或有趣，请给项目点个星！**
-
